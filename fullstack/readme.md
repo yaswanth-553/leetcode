@@ -40,3 +40,21 @@ Example: `<video src="https://archive.org/download/BigBuckBunny_124/Content/big_
 - If you wanted to display an image while the video is downloading, you can use the poster attribute. 
 - Another common MIME type is the video/ogg MIME type.Ogg is a digital multimedia container format designed to provide for efficient streaming and manipulation of digital multimedia. It is maintained by the Xiph.Org Foundation and is free and open, unrestricted by software patents. Its name is derived from "ogging", jargon from the computer game Netrek.
 - video/quicktime MIME type. QuickTime is an extensible multimedia architecture created by Apple, which supports playing, streaming, encoding, and transcoding a variety of digital media formats. Not as popular as the MP4 format, you may need it for legacy application support.
+- SVG stands for a scalable vector graphic. A vector graphic tracks data based on paths and equations to plot points, lines, and curves. What this really means is that a vector graphic, like an SVG, can be scaled to any size without impacting the quality.
+- SVGs specifically have the added benefit of storing data in XML. This means you can use them directly in your code as raw HTML with the svg element. It also means you can programmatically change the color of the image.
+- The <iframe> (Inline Frame) element is used to embed another webpage or external content inside your current webpage.<br>
+**Use of Anchor Tag Properties**<br>
+- The first value is _self, which is the default value. This opens the link in the current browsing context. In most cases, this will be the current tab or window.
+- The second value is _blank, which opens the link in a new browsing context. Typically, this will open in a new tab. But some users might configure their browsers to open a new window instead.
+- The third value is _parent, which opens the link in the parent of the current context. For example, if your website has an iframe, a _parent value in that iframe would open in your website's tab/window, not in the embedded frame.
+- The fourth value is _top, which opens the link in the top-most browsing context - think "the parent of the parent". This is similar to _parent, but the link will always open in the full browser tab/window, even for nested embedded frames.
+- There is a fifth value, called _unfencedTop, which is currently used for the experimental FencedFrame API. At the time of this lesson, you probably won't have a reason to use this one yet.
+**Absolute and Relative Path
+- An absolute path is a complete link to a resource. It starts from the root directory, includes every other directory, and finally the filename and extension. 
+-  A relative path specifies the location of a file relative to the directory of the current file. It does not include the protocol or the domain name, making it shorter and more flexible for internal links within the same website. 
+- There are five different states a link can be in:
+- The first is the default state, which is **:link**. This state represents a link which the user has not visited, clicked, or interacted with yet. 
+- The second state is **:visited**, which applies when a user has already visited the page being linked to. 
+- The third state is **:hover**. This state applies when a user is hovering their cursor over a link.
+- Then we have :focus. This state applies when we focus on a link.
+- :active. This state applies to links that are being activated by the user.
