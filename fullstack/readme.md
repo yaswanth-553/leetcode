@@ -1,3 +1,6 @@
+# HTML Basics
+- HTML represents the content and structure of the web page.
+- Void Elements: Void elements cannot have any content and only have a start tag. Examples include img and meta elements.
 - Some HTML elements do not have a closing tag. These are known as void elements.
 ex: `<img>` or `<img/>`
 - HTML is for the content and structure. CSS is for styling. JavaScript is for adding interactivity to your web pages.
@@ -58,3 +61,19 @@ Example: `<video src="https://archive.org/download/BigBuckBunny_124/Content/big_
 - The third state is **:hover**. This state applies when a user is hovering their cursor over a link.
 - Then we have :focus. This state applies when we focus on a link.
 - :active. This state applies to links that are being activated by the user.
+- The font element is a deprecated element used to set the font size and color of the text. While this element still works, you should not use it because the font size and color should always be set in CSS, not in HTML.
+- The center element is another deprecated element that is used to center the content horizontally within its container.
+-  primary difference between b and strong is b is for visual emphasis, while strong is for emphasizing importance.
+### What Are Description Lists, and When Should You Use Them?
+- Description lists are perfect for presenting terms and definitions in an organized and easy-to-read format, like in a glossary, or real dictionary, where you can find words with their corresponding definitions.
+- ex:
+```
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+  <!-- <dt>JS</dt>
+  <dd>JavaScript</dd> -->
+</dl>
+```
